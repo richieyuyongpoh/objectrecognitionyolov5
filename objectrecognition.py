@@ -7,6 +7,26 @@ from streamlit_webrtc import webrtc_streamer, WebRtcMode, RTCConfiguration
 import av
 
 
+st.header("Object Recognition using yolov5")
+
+readme = st.checkbox("readme first")
+
+if readme:
+
+    st.write("""
+        This is a an object recognition demo using [streamlit](https://streamlit.io/) and [yolov5](https://github.com/ultralytics/yolov5). It is hosted on [streamlit cloud](https://streamlit.io/cloud). You may get the codes via [github](https://github.com/richieyuyongpoh/objectrecognitionyolov5)
+        """)
+    
+    st.write ("Credits: [nicolalandro](https://github.com/nicolalandro/yolov5_streamlit)")
+    
+    st.write ("Main Reference: [live-webcam-with-streamlit](https://medium.com/mlearning-ai/live-webcam-with-streamlit-f32bf68945a4) ")
+
+    st.write ("For more info, please contact:")
+
+    st.write("<a href='https://www.linkedin.com/in/yong-poh-yu/'>Dr. Yong Poh Yu </a>", unsafe_allow_html=True)
+    
+    
+    
 device = 'cpu'
 if not hasattr(st, 'classifier'):
     st.model = torch.hub.load('ultralytics/yolov5', 'yolov5s',  _verbose=False)
