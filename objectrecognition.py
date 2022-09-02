@@ -17,9 +17,9 @@ if readme:
         This is a an object recognition demo using [streamlit](https://streamlit.io/) and [yolov5](https://github.com/ultralytics/yolov5). It is hosted on [streamlit cloud](https://streamlit.io/cloud). You may get the codes via [github](https://github.com/richieyuyongpoh/objectrecognitionyolov5). As it doesn't use GPU, it takes longer time to process the video. Be patient.
         """)
     
-    st.write ("Credits: [nicolalandro](https://github.com/nicolalandro/yolov5_streamlit)")
+    st.write ("Main Reference 1: [nicolalandro](https://github.com/nicolalandro/yolov5_streamlit)")
     
-    st.write ("Main Reference: [live-webcam-with-streamlit](https://medium.com/mlearning-ai/live-webcam-with-streamlit-f32bf68945a4) ")
+    st.write ("Main Reference 2: [live-webcam-with-streamlit](https://medium.com/mlearning-ai/live-webcam-with-streamlit-f32bf68945a4) ")
 
     st.write ("For more info, please contact:")
 
