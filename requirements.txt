@@ -5,7 +5,7 @@ torchvision
 opencv-python
 # matplotlib
 # PyYAML
-requests
+# requests
 # scipy
 # tqdm
 # seaborn
