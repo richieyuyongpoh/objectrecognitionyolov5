@@ -14,7 +14,7 @@ readme = st.checkbox("readme first")
 if readme:
 
     st.write("""
-        This is a an object recognition demo using [streamlit](https://streamlit.io/) and [yolov5](https://github.com/ultralytics/yolov5). It is hosted on [streamlit cloud](https://streamlit.io/cloud). You may get the codes via [github](https://github.com/richieyuyongpoh/objectrecognitionyolov5)
+        This is a an object recognition demo using [streamlit](https://streamlit.io/) and [yolov5](https://github.com/ultralytics/yolov5). It is hosted on [streamlit cloud](https://streamlit.io/cloud). You may get the codes via [github](https://github.com/richieyuyongpoh/objectrecognitionyolov5). As it doesn't use GPU, it takes longer time to process the video. Be patient.
         """)
     
     st.write ("Credits: [nicolalandro](https://github.com/nicolalandro/yolov5_streamlit)")
